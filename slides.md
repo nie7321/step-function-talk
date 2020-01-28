@@ -69,7 +69,9 @@ CloudWatch can invoke step functions, so you've got these available for TONS of 
 # Why not just use Lambda?
 Lambda and the AWS SDK could be used to achieve anything that step functions can.
 
-But step functions make certain things easier.
+But step functions make certain things easier. 
+
+Like babysitting & re-trying failed Lambdas. No 15 minute limit here :grin:
 
 ![bg right:40% 80%](https://d1.awsstatic.com/Digital%20Marketing/House/PAC/2up/PAC-Q4_House-Ads_Lambda_2up.62dc7e19b7b2e0a2c06821594c31f1ce00a6bdda.png)
 
@@ -79,7 +81,7 @@ But step functions make certain things easier.
 
 # <!-- fit --> The Case Study
 - Vendor app
-- Vendor wrote a custom ASP script that does an ETL from MyHR
+- Vendor wrote a custom ASP page that does an ETL from MyHR
 - Human goes to the page every Monday morning
 - Probably takes a screenshot of the resulting import stats
 - **Yuck.** Let's automate that!
@@ -249,7 +251,7 @@ I've got it wired up to SNS, which is making API calls to OpsGenie. We'll know i
 - AWS Step Functions are billed per state transition.
     - Lambda exec time, SES costs, etc all still applicable
 - 4,000 per month are free
-    - $0.025 / 1000 after that
+    - $0.025 / 1,000 after that
 - So, not really expensive.
 
 ---
