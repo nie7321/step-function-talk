@@ -264,6 +264,11 @@ I plan to turn this into a sharable terraform module. Bring your own Lambda impl
 # The End
 Thanks for listening everybody!
 
-- https://mjml.io/ - responsive email templating language 
+- https://github.com/nie7321/step-function-talk
+- https://mjml.io/ - responsive email templates
 
-If you have any questions, you can reach me on the DevIT Slack, or nick.evans@northwestern.edu!
+If you have any questions, you can find me in the DevIT slack's `#laravel` channel!
+
+![bg right:35% 90%](./talk-url.png)
+
+<!-- For a copy of this talk, open your phone's photo app and point it at the QR code. -->
